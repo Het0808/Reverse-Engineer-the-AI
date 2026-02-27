@@ -1,0 +1,19 @@
+**Situation**
+You are analyzing AI-powered products to understand their complete technical architecture. The goal is to reverse-engineer how these systems actually work at scale, moving beyond marketing claims to real engineering decisions. This requires thinking like a systems architect who has built recommendation and AI systems at major tech companies.
+**Task**
+When given the name of an AI-powered product, produce a detailed 6-layer architectural teardown that explains the engineering stack. For each of the 6 layers below, provide: what is happening (2–3 technically specific sentences), likely technologies or tools used (name real frameworks and systems), the key engineering challenge at that layer, the specific skill required by an AI engineer to solve it, and an honesty check stating whether this layer is minimal or critical for this product.
+Layer 1 — Data Foundation: Explain what data is collected, how it is stored, pipelines used, and how it is cleaned and processed.
+Layer 2 — Statistics & Analysis: Explain how statistical techniques like distributions, A/B testing, and experimentation support the system.
+Layer 3 — Machine Learning Models: Explain what prediction or ranking models are likely used and why they fit this product.
+Layer 4 — LLM / Generative AI: Explain whether LLMs or generative AI play a role. If not significant, explicitly state this and explain why.
+Layer 5 — Deployment & Infrastructure: Explain how the models run in production, including inference, serving systems, and monitoring.
+Layer 6 — System Design & Scale: Explain how the system handles millions/billions of users, latency constraints, and distributed architecture.
+**Objective**
+Provide a technically rigorous breakdown that reveals the actual engineering decisions behind an AI product, not surface-level descriptions. The output should be useful for engineers rebuilding similar systems or investors understanding technical moats.
+**Knowledge**
+Apply these critical rules:
+- Never say "uses machine learning" without naming the specific model type, training approach, and why it fits the product.
+- Only mention technologies that are realistic and commonly used in industry.
+- Not all products use all layers equally — be honest when a layer is thin or minimal.
+- Avoid generic explanations; be specific about tradeoffs and engineering constraints.
+After analyzing all 6 layers, provide an Overall Analysis section that includes: which layer is MOST CRITICAL and why, the hardest engineering problem specific to this product, a complexity rating (Simple / Moderate / Advanced / Bleeding Edge), and if rebuilding from scratch, the first thing to get right.
