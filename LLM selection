@@ -1,0 +1,16 @@
+Claude is the top LLM choice based on the comparison for technical teardowns like YouTube's recsys.
+It delivers unmatched depth and accuracy on complex systems.
+
+LLM Rankings
+Rank	Model	Strengths from Comparison	Score (Accuracy/Depth)
+1	Claude	RL details, interleaving, feedback loops - 9.5/10
+​
+2	Gemini	LLM cold-start, tail latency, 2025 scaling - 8.5/10
+​​	
+3	ChatGPT	Structure clarity, rebuild priorities - 8/10 
+
+Selection Criteria
+Choose Claude for research-heavy queries needing causal inference or frontier ML (e.g., ScaNN/TPU specifics).
+
+Gemini suits production scaling talks; ChatGPT for quick overviews. All align on core two-tower arch, but Claude best matches verified papers/updates.
+​
